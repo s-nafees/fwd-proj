@@ -1,0 +1,264 @@
+/* General Styles */
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Courier New', monospace;
+	background-color: #0D0A1A;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+  }
+  
+  .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1200px;
+	width: 100%;
+	padding: 0 50px;
+  }
+  
+  .content {
+	max-width: 500px;
+  }
+  
+  .content p {
+	font-size: 25px;
+	line-height: 1.6;
+	margin-top: 5%;
+  }
+  
+  .header {
+	font-size: 64px;
+	font-weight: bold;
+	color: #D9D9D9;
+  }
+  
+  .buttons {
+	display: flex;
+	gap: 20px;
+  }
+  
+  .btn-sign-in,
+  .btn-sign-up {
+	padding: 10px 30px;
+	font-size: 18px;
+	width:175px;
+	height:50px;
+	border:0px;
+	border-radius:43.75px;
+	cursor: pointer;
+	transition: 0.3s;
+	text-transform: lowercase;
+  }
+  
+  .btn-sign-in {
+	background: linear-gradient(90deg, #3A69E8, #7F58FF);
+	color: #fff;
+  }
+  
+  .btn-sign-in:hover {
+	opacity: 0.9;
+  }
+  
+  .btn-sign-up {
+	background: #D9D9D9;
+	color: #1A1A3A;
+  }
+  
+  .btn-sign-up:hover {
+	background: #BFBFBF;
+  }
+  
+  /* Illustration Styles */
+  .illustration {
+	flex-shrink: 0;
+	width: 500px; /* Ensures proper alignment and sizing */
+	display: flex;
+	justify-content: center;
+  }
+  
+  .illustration img {
+	width: 100%; /* Makes the image fill the container */
+	height: auto; /* Maintains aspect ratio */
+	max-width: 500px; /* Prevents the image from exceeding its designed size */
+  }
+  
+  .form-group {
+	margin-bottom: 20px;
+  }
+  
+  .form-group label {
+	display: block;
+	font-size: 16px;
+	margin-bottom: 5px;
+  }
+  
+  .form-group input {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	background-color: #2A2A4A;
+	color: #fff;
+  }
+  
+  .form-group input:focus {
+	border-color: #7F58FF;
+	outline: none;
+  }
+  
+  .button-container {
+	text-align: center;
+  }
+  .btn-submit {
+	padding: 10px 30px;
+	font-size: 18px;
+	border: none;
+	border-radius: 25px;
+	background: linear-gradient(90deg, #3A69E8, #7F58FF);
+	color: #fff;
+	cursor: pointer;
+	transition: all 0.3s;
+	font-family: 'Courier New', monospace;
+  }
+  
+  .btn-submit:hover {
+	opacity: 0.9;
+  }
+  
+  .btn-back {
+	margin-top: 10px;
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	color: #7F58FF;
+	text-decoration: none;
+  }
+  
+  .btn-back:hover {
+	text-decoration: underline;
+  }
+  
+/* Sign-In Page Styles */
+.signin-page-body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Courier New', monospace;
+	background-color: #0D0A1A;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+  }
+  
+  .signin-form-container {
+	max-width: 500px;
+	width: 100%;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #2A2A4A;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  .signin-form-header {
+	text-align: center;
+	margin-bottom: 20px;
+  }
+  
+  .signin-form-header h1 {
+	font-size: 32px;
+	font-weight: bold;
+	color: #D9D9D9;
+  }
+  
+  .signin-form-header p {
+	font-size: 18px;
+	line-height: 1.6;
+	color: #BFBFBF;
+  }
+  
+  .signin-form {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .signin-form .form-group {
+	margin-bottom: 20px;
+  }
+  
+  .signin-form .form-group label {
+	display: block;
+	font-size: 16px;
+	margin-bottom: 5px;
+	color: #D9D9D9;
+  }
+  
+  .signin-form .form-group input {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	background-color: #2A2A4A;
+	color: #fff;
+  }
+  
+  .signin-form .form-group input:focus {
+	border-color: #7F58FF;
+	outline: none;
+  }
+  
+  .signin-submit-button {
+	padding: 10px 30px;
+	font-size: 18px;
+	width: 175px;
+	height: 50px;
+	border: 0px;
+	border-radius: 43.75px;
+	cursor: pointer;
+	transition: 0.3s;
+	background: linear-gradient(90deg, #3A69E8, #7F58FF);
+	color: #fff;
+	text-transform: lowercase;
+	margin-top: 20px;
+  }
+  
+  .signin-submit-button:hover {
+	opacity: 0.9;
+  }
+  
+  .signin-redirect {
+	text-align: center;
+	margin-top: 20px;
+	font-size: 16px;
+  }
+  
+  .signin-redirect a {
+	color: #7F58FF;
+	text-decoration: none;
+  }
+  
+  .signin-redirect a:hover {
+	text-decoration: underline;
+  }
+
+  /* Forgot Password Styles */
+.forgot-password-container {
+	text-align: center;
+	margin-top: 10px;
+  }
+  
+  .forgot-password-link {
+	color: #7F58FF;
+	font-size: 16px;
+	text-decoration: none;
+  }
+  
+  .forgot-password-link:hover {
+	text-decoration: underline;
+  }
